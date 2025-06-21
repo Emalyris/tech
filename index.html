@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-microchip"></i>
+                TechHub
+            </a>
+            <button class="mobile-menu-btn" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="news.html" class="nav-link">Tech News</a></li>
+                    <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                    <li><a href="tutorials.html" class="nav-link">Tutorials</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="hero">
+            <div class="container">
+                <h1>Welcome to the Future of Technology</h1>
+                <p>Discover the latest innovations, reviews, and tutorials to stay ahead in the rapidly evolving tech world.</p>
+                <a href="news.html" class="btn">Explore Tech News</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="section-title">Featured Articles</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div style="background: #4f46e5; height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>AI Revolution in 2024</h3>
+                        <p>How artificial intelligence is transforming industries and what it means for the future of work.</p>
+                        <div class="card-meta">
+                            <span><i class="far fa-calendar"></i> May 15, 2024</span>
+                            <span><i class="far fa-user"></i> Alex Johnson</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div style="background: #0ea5e9; height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Quantum Computing Breakthrough</h3>
+                        <p>Scientists achieve quantum supremacy with new 128-qubit processor that could revolutionize computing.</p>
+                        <div class="card-meta">
+                            <span><i class="far fa-calendar"></i> May 10, 2024</span>
+                            <span><i class="far fa-user"></i> Sarah Chen</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div style="background: #8b5cf6; height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Foldable Phones Comparison</h3>
+                        <p>We compare the latest foldable devices from Samsung, Google, and Huawei to find the best value.</p>
+                        <div class="card-meta">
+                            <span><i class="far fa-calendar"></i> May 5, 2024</span>
+                            <span><i class="far fa-user"></i> Michael Rodriguez</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>TechHub</h3>
+                    <p>Your trusted source for the latest technology news, reviews, and tutorials.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">Tech News</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Artificial Intelligence</a></li>
+                        <li><a href="#">Programming</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Gadgets</a></li>
+                        <li><a href="#">Cybersecurity</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest tech updates.</p>
+                    <form style="margin-top: 1rem;">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your email address" required>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 TechHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

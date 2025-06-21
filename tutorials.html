@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub | Tech Tutorials</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-microchip"></i>
+                TechHub
+            </a>
+            <button class="mobile-menu-btn" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="news.html" class="nav-link">Tech News</a></li>
+                    <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                    <li><a href="tutorials.html" class="nav-link active">Tutorials</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h1 class="section-title">Tech Tutorials</h1>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <div style="background: linear-gradient(45deg, #0ea5e9, #3b82f6); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Python for Data Science</h3>
+                        <p>Learn how to use Pandas, NumPy, and Matplotlib for data analysis and visualization.</p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 45 min</span>
+                            <span><i class="fas fa-level-up-alt"></i> Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div style="background: linear-gradient(45deg, #f59e0b, #ef4444); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Docker & Kubernetes Guide</h3>
+                        <p>Containerize your applications and deploy them at scale with Kubernetes.</p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 1h 20min</span>
+                            <span><i class="fas fa-level-up-alt"></i> Advanced</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div style="background: linear-gradient(45deg, #10b981, #0ea5e9); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>React Masterclass</h3>
+                        <p>Build modern web applications with React, React Hooks, and Context API.</p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 2h 15min</span>
+                            <span><i class="fas fa-level-up-alt"></i> Beginner</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div style="background: linear-gradient(45deg, #8b5cf6, #ec4899); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cybersecurity Fundamentals</h3>
+                        <p>Essential security practices for developers and IT professionals.</p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 1h 10min</span>
+                            <span><i class="fas fa-level-up-alt"></i> Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Same as index.html footer -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
